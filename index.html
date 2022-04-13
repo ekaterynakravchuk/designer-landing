@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denis Novik</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <!-- sprite -->
+  <svg style="display: none;">
+    <symbol id="star" viewBox="0 0 22 20">
+      <g>
+        <path
+          d="M9.79329 0.85958C10.0931 -0.0606967 11.3951 -0.0606959 11.6949 0.859581L13.446 6.23398C13.5801 6.64561 13.9639 6.92418 14.3968 6.92418H20.0576C21.0269 6.92418 21.4293 8.16521 20.6443 8.73398L16.0694 12.0486C15.7179 12.3033 15.5709 12.7555 15.7053 13.1682L17.4539 18.5349C17.7539 19.4557 16.7006 20.2227 15.9164 19.6544L11.3308 16.3321C10.9808 16.0784 10.5074 16.0784 10.1574 16.3321L5.57183 19.6544C4.78757 20.2227 3.73428 19.4557 4.0343 18.5348L5.78288 13.1682C5.91733 12.7555 5.77025 12.3033 5.41879 12.0486L0.843917 8.73398C0.0589104 8.16521 0.461241 6.92418 1.43064 6.92418H7.09139C7.52432 6.92418 7.90808 6.64561 8.0422 6.23398L9.79329 0.85958Z" />
+      </g>
+    </symbol>
+  </svg>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a class="header__nav-link header__nav-link--active" href="#home">Home</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#about">About me</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+            <button class="menu__btn-close">
+              <img class="menu__btn-img" src="images/menu-btn-close.png" alt="menu button">
+            </button>
+            <div class="home__lang home__lang-mobile">
+              <a class="home__lang-text" href="#">RU</a>
+              <span class="home__lang-slash">|</span>
+              <a class="home__lang-text home__lang--active" href="#">EN</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="home" id="home">
+        <div class="container">
+          <div class="home__inner">
+            <button class="menu__btn">
+              <img class="menu__btn-img" src="images/menu-btn.png" alt="menu button">
+            </button>
+            <div class="home__info">
+              <h1 class="home__title">Denis Novik</h1>
+              <p class="home__text">
+                UX | UI designer<br>
+                24 years old, Minsk
+              </p>
+              <div class="home__lang">
+                <a class="home__lang-text" href="#">RU</a>
+                <span class="home__lang-slash">|</span>
+                <a class="home__lang-text home__lang--active" href="#">EN</a>
+              </div>
+            </div>
+            <div class="home__photo">
+              <img class="home__img" src="images/home-photo.jpg" alt="photo">
+              <img class="home__img-mobile" src="images/home-photo-mobile.jpg" alt="photo">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__inner">
+            <h3 class="about__title">About me</h3>
+            <p class="about__text">Hi, I'm Denis – UX/UI designer from Minsk.
+              I'm interested in design and everything connected with it.
+            </p>
+            <p class="about__text">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.
+            </p>
+            <p class="about__text">Ready to implement excellent projects with wonderful people.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="skills__inner">
+            <h3 class="skills__title">Skills</h3>
+            <p class="skills__text">I work in such programs as</p>
+            <div class="skills__row">
+              <div class="skills__col">
+                <div class="skills__item">
+                  <img class="skills__icon" src="images/skills-ps.png" alt="Photoshop">
+                  <h6 class="skills__item-title">
+                    Adobe Photoshop
+                  </h6>
+                  <div class="skills__bar photoshop">
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__col">
+                <div class="skills__item">
+                  <img class="skills__icon" src="images/skills-ai.png" alt="Illustrator">
+                  <h6 class="skills__item-title">
+                    Adobe Illustrator
+                  </h6>
+                  <div class="skills__bar illustrator">
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__col">
+                <div class="skills__item">
+                  <img class="skills__icon" src="images/skills-ae.png" alt="After Effects">
+                  <h6 class="skills__item-title">
+                    Adobe<br> After Effects
+                  </h6>
+                  <div class="skills__bar after-effects">
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__col">
+                <div class="skills__item">
+                  <img class="skills__icon" src="images/skills-figma.png" alt="Figma">
+                  <h6 class="skills__item-title">
+                    Figma
+                  </h6>
+                  <div class="skills__bar figma">
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                    <svg class="skills__bar-img">
+                      <use xlink:href="#star"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <div class="portfolio__inner">
+            <h3 class="portfolio__title">Portfolio</h3>
+            <div class="portfolio__item">
+              <img class="portfolio__img" src="images/portfolio/img-1.jpg" alt="img1">
+              <a class="portfolio__link" href="#">Online fashion store - Homepage</a>
+            </div>
+            <div class="portfolio__item">
+              <img class="portfolio__img" src="images/portfolio/img-2.jpg" alt="img2">
+              <a class="portfolio__link" href="#">Reebok Store - Concept</a>
+            </div>
+            <div class="portfolio__item">
+              <img class="portfolio__img" src="images/portfolio/img-3.jpg" alt="img3">
+              <a class="portfolio__link" href="#">Braun Landing Page - Concept</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <div class="contacts__inner">
+            <div class="contacts__info">
+              <h3 class="contacts__title">Contacts</h3>
+              <p class="contacts__text">
+                Want to know more or just chat? You are welcome!
+              </p>
+              <button class="contacts__btn">Send message</button>
+            </div>
+            <div class="contacts__social">
+              <a class="contacts__social-link" href="#">
+                <img class="contacts__social-img" src="images/linkedin.svg">
+              </a>
+              <a class="contacts__social-link" href="#">
+                <img class="contacts__social-img" src="images/instagram.svg">
+              </a>
+              <a class="contacts__social-link" href="#">
+                <img class="contacts__social-img" src="images/behance.svg">
+              </a>
+              <a class="contacts__social-link" href="#">
+                <img class="contacts__social-img" src="images/dribble.svg">
+              </a>
+            </div>
+            <p class="contacts__subtitle">
+              Like me on
+            </p>
+            <p class="contacts__subtitle">
+              LinkedIn, Instagram, Behance, Dribble
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
